@@ -1,0 +1,398 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PT Sans", sans-serif;
+}
+p {
+  font-family: "PT Sans", sans-serif;
+}
+
+/* nav bar */
+/* #header{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(/resource/img/cover.jpg);
+} */
+
+.nav {
+    
+  
+    box-shadow: 3px 4px 9px rgba(15, 15, 15, 0.699);
+    border: 1px solid  rgba(211, 209, 209, 0.979);
+   background-color: rgb(243, 241, 241);
+    height: 50px;
+    width: 100%;
+}
+
+.fa-bars{
+    margin: 10px 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ull{
+    display: block;
+    margin-left: 20px;
+}
+.ul{
+
+   float: right;
+    list-style: none;
+   display: block;
+}
+.my{
+    font-size: 20px;
+   font-weight: bold;
+   font-style: italic;
+}
+.ul li{
+    
+    position: relative;
+  right: 1100px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* container profile */
+.containers{
+    box-shadow: 1px 2px 3px rgb(70, 69, 69);
+    margin-left: 70px;
+    border: 1px solid rgb(207, 206, 206);
+    width: 300px;
+   
+}
+
+
+
+/* profile section */
+#follow{
+   height: 100vh;
+  
+
+}
+
+
+.profile{
+    width: 110px;
+    height: 110px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.profile img{
+     
+    width: 110px;
+    height: 110px;
+  
+    border-radius: 70px;
+   
+}
+.show_follow{
+    margin-top: 40px;
+}
+.line{
+    content: ".";
+    width: 100%;
+    height: 1px;
+    background-color: rgb(68, 67, 67);
+    margin-top: 20px;
+}
+strong a{
+    position: relative;
+    left: 80px;
+    width: 150px;
+  border-radius: 30px;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 8px;
+   display: block;
+   top: 30px;
+  
+  
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.follow button{
+    height: 30px;
+    border-color:rgb(0, 140, 255) ;
+    width: 150px;
+    position: relative;
+   left: 80px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 30px;
+    top: 20px;
+    margin-bottom: 10px;
+   
+}
+.follow button:active,
+.follow button:hover{
+   
+    transform: translateY(-3px);
+    transition: all 0.4s;
+}
+
+.clic{
+    margin-right: 20px;
+    float: right;
+    font-weight: bolder;
+}
+.clicks{
+    margin-right: 20px;
+    float: right;
+    font-weight: bolder;
+}
+.click{
+
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.name{
+  
+   font-weight: 200;
+}
+.live{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.fa-solid{
+ padding-right: 3px;
+   display: inline-block;
+}
+.hob{
+    margin-top: 10px;
+    list-style: none;
+    display: block;
+
+}
+ul li{
+
+    margin: 10px 20px;
+    display: inline-block;
+
+}
+/* row 2 */
+.football,.footballs{
+   margin-left: 30px;
+   
+}
+.footballs{
+    margin-top: 20px;
+}
+.footbals{
+    margin-top: 20px;
+}
+.footbal{
+ 
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url(/resource/img/football-1019776_1280.jpg);
+    width: 300px;
+    height: 270px;
+}
+.travel{
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(/resource/img/202951.png);
+    width: 300px;
+    height: 270px;
+}
+.coding{
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(/resource/img/hour-of-code-logo-2-1024x528.png);
+    width: 300px;
+    height: 270px;
+}
+.listen{
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(/resource/img/girl-listen_music-01_4x.webp);
+    width: 300px;
+    height: 270px;
+}
+.hover{
+    position: relative;
+    top: 240px;
+    display: none;
+    left: 10px;
+}
+.like{
+    display: block;
+    float:right;
+    position: relative;
+    bottom: 40px;
+}
+.a ,
+.a li{
+    color: #000;
+}
+
+.footbal:hover .hover,
+.travel:hover .hover,
+.coding:hover .hover,
+.listen:hover .hover{
+    display: block;
+  
+}
+.footbal:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)),url(/resource/img/football-1019776_1280.jpg);
+    transform: scale(1.03);
+    transition: all 0.5s;
+    
+}
+.travel:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(/resource/img/202951.png);
+    transform: scale(1.03);
+    transition: all 0.5s;
+    font-size: 20;
+    
+}
+.coding:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url(/resource/img/hour-of-code-logo-2-1024x528.png);
+    transform: scale(1.03);
+    transition: all 0.5s;
+    font-size: 20;
+}
+.coding:hover li{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url(/resource/img/hour-of-code-logo-2-1024x528.png);
+    display: inline-block;
+    transform: scale(1.03);
+    transition: all 0.5s;
+    font-size: 20;
+    color: rgb(171, 169, 169);
+}
+.listen:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url(/resource/img/girl-listen_music-01_4x.webp);
+    transform: scale(1.03);
+    transition: all 0.5s;
+    font-size: 20;
+    color: rgb(101, 99, 99);
+}
+
+/* se2 */
+#se2{
+    height: 100vh;
+}
+.code{
+    border-radius: 10px;
+    margin: 20px;
+    height: 400px;
+   width: 400px;
+     background-image:linear-gradient(rgba(109, 105, 105, 0.2),rgba(112, 110, 110, 0.4)),url(/resource/img/freelance-programmer-works-computer-cartoon-600w-1653799900.webp); 
+}
+.touch{
+    font-size: 16px;
+    display: none;
+    position: relative;
+    top: 345px;
+    left: 10px;
+    transition: all 0.9s;
+
+}
+
+.code:hover .touch,
+.code1:hover .touch,
+.codes:hover .touch{
+    display: block;
+}
+.code:hover{
+    background-image:linear-gradient(rgba(109, 105, 105, 0.1),rgba(112, 110, 110, 0.7)),url(/resource/img/freelance-programmer-works-computer-cartoon-600w-1653799900.webp); 
+    transform: scale(1.05);
+    transition: transform 0.8s, transition 04s;
+}
+
+.code1{
+    position: relative;
+    right: 17px;
+
+   background-size: cover;
+    border-radius: 10px;
+    margin: 20px 0px;
+    height: 400px;
+   width: 400px;
+     background-image:linear-gradient(rgba(229, 226, 226, 0.2),rgba(129, 126, 126, 0.2)),url(/resource/img/Shwedagon-Pagoda-Guide-Sunset.webp); 
+}
+.code1:hover{
+    background-image:linear-gradient(rgba(229, 226, 226, 0.2),rgba(129, 126, 126, 0.7)),url(/resource/img/Shwedagon-Pagoda-Guide-Sunset.webp);
+    transform: scale(1.05);
+    transition: transform 0.8s, transition 04s;
+}
+/* .code1:hover .touch{
+    background-image:linear-gradient(rgba(229, 226, 226, 0.2),rgba(129, 126, 126, 0.7)),url(/resource/img/Shwedagon-Pagoda-Guide-Sunset.webp);
+    transform: scale(1.05);
+    transition: transform 0.8s, transition 04s;
+    top: 380px;
+} */
+
+.codes{
+    border-radius: 10px;
+    margin: 20px 0px;
+    height: 400px;
+   width: 400px;
+ 
+     background-image:linear-gradient(rgba(112, 110, 110, 0.2),rgba(105, 104, 104, 0.4)),url(/resource/img/woman-sitting-room-cat-movie-600w-1782477908.webp); 
+}
+.codes:hover{
+    background-image:linear-gradient(rgba(112, 110, 110, 0.2),rgba(105, 104, 104, 0.6)),url(/resource/img/woman-sitting-room-cat-movie-600w-1782477908.webp); 
+    transform: scale(1.05);
+    transition: transform 0.8s, transition 04s;
+}
+.codes:hover .touch{
+    /* background-image:linear-gradient(rgba(112, 110, 110, 0.2),rgba(105, 104, 104, 0.6)),url(/resource/img/woman-sitting-room-cat-movie-600w-1782477908.webp);  */
+    transform: scale(1.05);
+    transition: transform 0.8s, transition 04s;
+    top: 360px;
+    padding: 10px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(207, 203, 203);
+    padding: 0;
+    box-shadow: 3px 4px 8px #000;
+}
+footer h5{
+    /* bottom: 40px;
+    position: relative; */
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "PT Sans",sans-serif;
+}
+
+.icon{
+    list-style: none;
+    display: block;
+    position: relative;
+    float: right;
+    bottom: 80px;
+}
+.ico{
+    list-style: none;
+    display: block;
+    position: relative;
+    bottom: 20px;
+}
